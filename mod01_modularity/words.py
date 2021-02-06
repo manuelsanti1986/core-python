@@ -1,6 +1,12 @@
 from urllib.request import urlopen
 
 def fetch_words(url):
+    """Fetch a list of words from an URL
+        Args:
+            url: The URL of a UTF-8 text document
+        Returns:
+            A list of string containing the words from the document
+    """
     story = urlopen(url)
     story_words = []
     for line in story:
@@ -12,6 +18,7 @@ def fetch_words(url):
 
 
 def print_words(story_words):
+    """Prints each element in an array"""
     for word in story_words:
         print(word)
 
