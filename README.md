@@ -64,6 +64,14 @@ The following repository contains the projects prepared by **Manuel Santiago**.
   - Scopes to limit name access
   - "EVERYTHING IS AN OBJECT"
 
+- **Key Takeaways:**
+  - References to objects are copied, not the object themselves.
+  - Always use immutable objects for default values.
+  - Dynamic typing
+      - The type of an object reference is not resolved until the program is running
+  - Python will not generally perform implicit conversion between types. The only exception is the conversion of if and while loop predicates to bool. 
+  - Scopes in Python do not correspond to source code blocks.
+
 ---
 
 ### Resources:
