@@ -1,3 +1,8 @@
+"""Retrieve and print words from a URL
+Usage:
+    python3 words.py <URL>
+"""
+
 from urllib.request import urlopen
 
 def fetch_words(url):
@@ -18,7 +23,10 @@ def fetch_words(url):
 
 
 def print_words(story_words):
-    """Prints each element in an array"""
+    """Prints each element in an array per line
+        Args:
+            story_words: An iterable series of printable items
+    """
     for word in story_words:
         print(word)
 

@@ -13,7 +13,7 @@ The following repository contains the projects prepared by **Manuel E. Santiago 
 
 ### Configuration:
 
-#### Ubuntu:
+#### 1. Ubuntu: Python version:
 
 - From the terminal, confirm python version is the latest (3.8 at the moment)
   - `python --version`
@@ -31,6 +31,10 @@ The following repository contains the projects prepared by **Manuel E. Santiago 
       - Select option 0, it should be set to use `/usr/bin/python3`
     - `sudo update-alternatives --config python3`
       - Select option 0, it should be set to use `/usr/bin/python3.8`
+
+#### 2. Ubuntu: Executable Modules:
+  - To make a python module executable by the user:
+    - `chmod +x module_name.py`
 
 ---
 
