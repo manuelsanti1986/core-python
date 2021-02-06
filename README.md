@@ -53,6 +53,16 @@ The following repository contains the projects prepared by **Manuel Santiago**.
     - Make programs executable
     - Using docstrings to document functions, modules, and classes 
 
+### Module 2: Objects and Types
+
+- **Concepts Overview:**
+  - Python Object model
+  - Named references to objects
+  - Value vs. identity equality
+  - Passing arguments and returning values
+  - Python's type system
+  - Scopes to limit name access
+  - "EVERYTHING IS AN OBJECT"
 
 ---
 
