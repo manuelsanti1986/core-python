@@ -5,17 +5,17 @@
 
 ---
 
-## Description:
+## Description
 
 The following repository contains the projects prepared by **Manuel E. Santiago Laboy**.
 
 ---
 
-## Configuration:
+## Configuration
 
-### Ubuntu: 
+### Ubuntu
 
-#### 1. Python version:
+#### 1. Python version
 
 - From the terminal, confirm python version is the latest (3.8 at the moment)
   - `python --version`
@@ -34,13 +34,13 @@ The following repository contains the projects prepared by **Manuel E. Santiago 
     - `sudo update-alternatives --config python3`
       - Select option 0, it should be set to use `/usr/bin/python3.8`
 
-#### 2. Executable Modules:
+#### 2. Executable Modules
   - To make a python module executable by the user:
     - `chmod +x module_name.py`
 
 ---
 
-## Assignment Solutions:
+## Project Solutions
 ### Module 1: Modularity
 
 - **Concepts Overview:**
@@ -64,4 +64,8 @@ The following repository contains the projects prepared by **Manuel E. Santiago 
 ### Useful Links
 - [Absolute vs Relative Module Imports](https://realpython.com/absolute-vs-relative-python-imports/)
 
+---
+
+### Contact Information
+- [Manuel Santiago LinkedIn](https://www.linkedin.com/in/manuelesantiagolaboy/)
 
