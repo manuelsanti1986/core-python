@@ -4,7 +4,7 @@ import sys
 import mod01_modularity.words as words
 import mod02_objects_types_collections.objects as objects
 import mod02_objects_types_collections.collections as collections
-import mod03_exceptions.exceptions as exceptions
+import mod04_iteration_iterables.iterations as iterations
 from mod02_objects_types_collections.objects import main_objects
 
 
@@ -31,3 +31,6 @@ if __name__ == '__main__':
     collections.tuples_destructuring()
     collections.tuples_constructor()
     collections.string_methods()
+
+    ## Iterations & Iterables
+

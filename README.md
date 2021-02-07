@@ -116,7 +116,19 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Use `str()` to convert exceptions to string
   - Generally, do not catch the *TypeError* exception
   - Implement platform-specific actions with *ImportError* and EAFP
-  
+
+### Module 4: Iteration and Iterables
+
+- **Concepts Overview:**
+  - Low-leve iterable API
+  - Exceptions in iterations
+  - The *yield* keyword
+  - Statefulness, laziness, and infinite sequences
+  - Generator Expressions
+  - Iteration Tools
+
+- **Key Takeaways:**
+  - 
   
 ---
 
