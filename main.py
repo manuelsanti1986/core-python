@@ -29,3 +29,4 @@ if __name__ == '__main__':
     collections.tuples_intro()
     collections.tuples_destructuring()
     collections.tuples_constructor()
+    collections.string_methods()
