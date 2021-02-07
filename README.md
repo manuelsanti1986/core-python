@@ -1,13 +1,13 @@
 # Welcome to Manuel's Python Fundamentals Repository
 
 ## Core Python: Getting Started
-### *by Rober Smallshire and Austin* Bingham
+### *by Rober Smallshire and Austin Bingham*
 
 ---
 
 ## Description
 
-The following repository contains the projects prepared by **Manuel Santiago**.
+The following repository contains the projects prepared by **Manuel Santiago** while following the *Core Python: Getting Started* training.
 
 ---
 
@@ -33,6 +33,14 @@ The following repository contains the projects prepared by **Manuel Santiago**.
       - Select option 0, it should be set to use `/usr/bin/python3`
     - `sudo update-alternatives --config python3`
       - Select option 0, it should be set to use `/usr/bin/python3.8`
+  
+- Make sure the `apt_pkg.so` exists inside the python `dist-packages/` directory:
+  - `cd /usr/lib/python3/dist-packages`
+  - `ls -l`
+  - If the `apt_pkg.so` does not exist:
+    - `sudo apt-get install python3-apt --reinstall` or `sudo apt-get install python-apt --reinstall` depending on the version
+    - `sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so`
+    - Make sure the file was created, if it is not, try finding the correct `apt_pkg.python...` file
 
 #### 2. Executable Modules
   - To make a python module executable by the user:
@@ -53,6 +61,44 @@ The following repository contains the projects prepared by **Manuel Santiago**.
     - Make programs executable
     - Using docstrings to document functions, modules, and classes 
 
+### Module 2: Objects, Types, and Collections
+
+- **Concepts Overview:**
+  - Python Object model
+  - Named references to objects
+  - Value vs. identity equality
+  - Passing arguments and returning values
+  - Python's type system
+  - Scopes to limit name access
+  - "EVERYTHING IS AN OBJECT"  
+
+- **Key Takeaways:**
+  - **References to objects are copied, not the object themselves.**
+  - Always use immutable objects for default values.
+  - Dynamic typing
+      - The type of an object reference is not resolved until the program is running
+  - Python will not generally perform implicit conversion between types. The only exception is the conversion of if and while loop predicates to bool. 
+  - Scopes in Python do not correspond to source code blocks.
+  - Use `str.join()` to join strings instead of `+`
+  - Data Types:  
+    - **Boolean**
+    - **Numeric:**
+      - **int:**
+      - **float:**
+      - **complex:**
+    - **Binary:**
+      - **byte:** Immutable sequences of single bytes.
+      - **bytearray:** Mutable counterpart to bytes objects.
+      - **memoryview:** Allow Python code to access the internal data of an object that supports the buffer protocol without copying.
+    - Collections:
+      - **List:** Ordered collection which is changeable. Items do not need to be the same data
+      - **Tuples:** Immutable sequence of arbitrary objects.
+      - **Range:** Arithmetic progression of integers
+      - **Set:** Immutable collection of unique and immutable objects
+      - **Dictionary:** Unordered collection of key-value pais
+       type.
+      - **String:** Sequence of unicode characters  
+
 
 ---
 
@@ -62,6 +108,8 @@ The following repository contains the projects prepared by **Manuel Santiago**.
 ---
 
 ### Useful Links
+- [Python Standard Library](https://docs.python.org/3/library/)
+- [Python Standard Types](https://docs.python.org/3/library/stdtypes.html)
 - [Absolute vs Relative Module Imports](https://realpython.com/absolute-vs-relative-python-imports/)
 
 ---
