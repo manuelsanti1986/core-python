@@ -79,9 +79,24 @@ The following repository contains the projects prepared by **Manuel Santiago** w
       - The type of an object reference is not resolved until the program is running
   - Python will not generally perform implicit conversion between types. The only exception is the conversion of if and while loop predicates to bool. 
   - Scopes in Python do not correspond to source code blocks.
-  - **Tuples:** Immutable sequence of arbitrary objects
-  - **Range:** Arithmetic progression of integers
-  - **Set:** Immutable colection of unique, immutable objects
+  - Data Types:  
+    - **Boolean**
+    - **Numeric:**
+      - **int:**
+      - **float:**
+      - **complex:**
+    - **Binary:**
+      - **byte:** Immutable sequences of single bytes.
+      - **bytearray:** Mutable counterpart to bytes objects.
+      - **memoryview:** Allow Python code to access the internal data of an object that supports the buffer protocol without copying.
+    - Collections:
+      - **List:** Ordered collection which is changeable. Items do not need to be the same data
+      - **Tuples:** Immutable sequence of arbitrary objects.
+      - **Range:** Arithmetic progression of integers
+      - **Set:** Immutable collection of unique and immutable objects
+      - **Dictionary:** Unordered collection of key-value pais
+       type.
+      - **String:** Sequence of unicode characters  
   - Use `str.join()` to join strings instead of `+`
 
 ---
@@ -93,6 +108,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 
 ### Useful Links
 - [Python Standard Library](https://docs.python.org/3/library/)
+- [Python Standard Types](https://docs.python.org/3/library/stdtypes.html)
 - [Absolute vs Relative Module Imports](https://realpython.com/absolute-vs-relative-python-imports/)
 
 ---
