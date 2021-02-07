@@ -128,7 +128,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Iteration Tools
 
 - **Key Takeaways:**
-  - 
+  - Test
   
 ---
 
