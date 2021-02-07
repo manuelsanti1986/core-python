@@ -38,7 +38,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
   - `cd /usr/lib/python3/dist-packages`
   - `ls -l`
   - If the `apt_pkg.so` does not exist:
-    - `sudo apt-get install python3-apt --reinstall`
+    - `sudo apt-get install python3-apt --reinstall` or `sudo apt-get install python-apt --reinstall` depending on the version
     - `sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so`
     - Make sure the file was created, if it is not, try finding the correct `apt_pkg.python...` file
 
