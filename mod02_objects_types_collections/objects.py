@@ -1,4 +1,8 @@
-import time
+def add_divider(title):
+    divider = '-' * len(title) + '\n'
+    divider += title + '\n'
+    divider += '-' * len(title)
+    return divider
 
 def replace_contents(g):
     g[0] = 7
