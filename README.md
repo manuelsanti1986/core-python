@@ -112,7 +112,8 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Resource cleanup
 
 - **Key Takeaways:**
-  - **Exceptions are a mechanism for interrupting normal program flow and continuing in surrounding context.**
+  - Exceptions are a mechanism for interrupting normal program flow and continuing in surrounding context.
+  
   
 ---
 
