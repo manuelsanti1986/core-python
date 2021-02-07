@@ -33,6 +33,14 @@ The following repository contains the projects prepared by **Manuel Santiago**.
       - Select option 0, it should be set to use `/usr/bin/python3`
     - `sudo update-alternatives --config python3`
       - Select option 0, it should be set to use `/usr/bin/python3.8`
+  
+- Make sure the `apt_pkg.so` exists inside the python `dist-packages/` directory:
+  - `cd /usr/lib/python3/dist-packages`
+  - `ls -l`
+  - If the `apt_pkg.so` does not exist:
+    - `sudo apt-get install python3-apt --reinstall`
+    - `sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so`
+    - Make sure the file was created, if it is not, try finding the correct `apt_pkg.python...` file
 
 #### 2. Executable Modules
   - To make a python module executable by the user:
@@ -53,7 +61,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
     - Make programs executable
     - Using docstrings to document functions, modules, and classes 
 
-### Module 2: Objects and Types
+### Module 2: Objects, Types, and Collections
 
 - **Concepts Overview:**
   - Python Object model
@@ -63,6 +71,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
   - Python's type system
   - Scopes to limit name access
   - "EVERYTHING IS AN OBJECT"
+  - Tu
 
 - **Key Takeaways:**
   - References to objects are copied, not the object themselves.
