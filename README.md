@@ -1,7 +1,7 @@
 # Welcome to Manuel's Python Fundamentals Repository
 
 ## Core Python: Getting Started
-### *by Rober Smallshire and Austin* Bingham
+### *by Rober Smallshire and Austin Bingham*
 
 ---
 
