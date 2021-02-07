@@ -90,7 +90,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
       - **byte:** Immutable sequences of single bytes.
       - **bytearray:** Mutable counterpart to bytes objects.
       - **memoryview:** Allow Python code to access the internal data of an object that supports the buffer protocol without copying.
-    - Collections:
+    - **Collections:**
       - **List:** Ordered collection which is changeable. Items do not need to be the same data
       - **Tuples:** Immutable sequence of arbitrary objects.
       - **Range:** Arithmetic progression of integers
@@ -115,6 +115,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Exceptions are a mechanism for interrupting normal program flow and continuing in surrounding context.
   - Use `str()` to convert exceptions to string
   - Generally, do not catch the *TypeError* exception
+  - Implement platform-specific actions with *ImportError* and EAFP
   
   
 ---
