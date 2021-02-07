@@ -73,7 +73,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
   - "EVERYTHING IS AN OBJECT"  
 
 - **Key Takeaways:**
-  - References to objects are copied, not the object themselves.
+  - **References to objects are copied, not the object themselves.**
   - Always use immutable objects for default values.
   - Dynamic typing
       - The type of an object reference is not resolved until the program is running
@@ -92,6 +92,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
 ---
 
 ### Useful Links
+- [Python Standard Library](https://docs.python.org/3/library/)
 - [Absolute vs Relative Module Imports](https://realpython.com/absolute-vs-relative-python-imports/)
 
 ---

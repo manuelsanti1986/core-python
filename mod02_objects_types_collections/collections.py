@@ -1,4 +1,5 @@
 import math
+import datetime
 
 def minmax(sequence):
     return min(sequence), max(sequence)
@@ -58,6 +59,11 @@ def string_methods():
     print(str)
     str = "pi= {m.pi}, euler= {m.e}".format(m=math)
     print(str)
+    str = f"number= {2 + 2}"
+    print(str)
+    str = f"datetime= {datetime.datetime.now().isoformat()}"
+    print(str)
+
 
 
 def collection_contains(value, collection):
