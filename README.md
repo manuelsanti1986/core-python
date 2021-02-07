@@ -70,8 +70,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
   - Passing arguments and returning values
   - Python's type system
   - Scopes to limit name access
-  - "EVERYTHING IS AN OBJECT"
-  - Tu
+  - "EVERYTHING IS AN OBJECT"  
 
 - **Key Takeaways:**
   - References to objects are copied, not the object themselves.
@@ -80,6 +79,9 @@ The following repository contains the projects prepared by **Manuel Santiago**.
       - The type of an object reference is not resolved until the program is running
   - Python will not generally perform implicit conversion between types. The only exception is the conversion of if and while loop predicates to bool. 
   - Scopes in Python do not correspond to source code blocks.
+  - **Tuples:** Immutable sequence of arbitrary objects
+  - **Range:** Arithmetic progression of integers
+  - **Set:** Immutable colection of unique, immutable objects
 
 ---
 
