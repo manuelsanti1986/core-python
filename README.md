@@ -82,6 +82,7 @@ The following repository contains the projects prepared by **Manuel Santiago**.
   - **Tuples:** Immutable sequence of arbitrary objects
   - **Range:** Arithmetic progression of integers
   - **Set:** Immutable colection of unique, immutable objects
+  - Use `str.join()` to join strings instead of `+`
 
 ---
 
