@@ -99,7 +99,21 @@ The following repository contains the projects prepared by **Manuel Santiago** w
        type.
       - **String:** Sequence of unicode characters  
 
+### Module 3: Exceptions
 
+- **Concepts Overview:**
+  - Exception concept
+  - Raising Exceptions
+  - Control flow
+  - Catching Exceptions
+  - Unhandled Exceptions
+  - Built-in exceptions
+  - Programmer vs user erros
+  - Resource cleanup
+
+- **Key Takeaways:**
+  - **Exceptions are a mechanism for interrupting normal program flow and continuing in surrounding context.**
+  
 ---
 
 ### Resources:
