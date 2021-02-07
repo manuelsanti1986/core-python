@@ -7,7 +7,7 @@
 
 ## Description
 
-The following repository contains the projects prepared by **Manuel Santiago**.
+The following repository contains the projects prepared by **Manuel Santiago** while following the *Core Python: Getting Started* training.
 
 ---
 
