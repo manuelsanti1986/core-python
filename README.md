@@ -79,6 +79,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
       - The type of an object reference is not resolved until the program is running
   - Python will not generally perform implicit conversion between types. The only exception is the conversion of if and while loop predicates to bool. 
   - Scopes in Python do not correspond to source code blocks.
+  - Use `str.join()` to join strings instead of `+`
   - Data Types:  
     - **Boolean**
     - **Numeric:**
@@ -97,7 +98,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
       - **Dictionary:** Unordered collection of key-value pais
        type.
       - **String:** Sequence of unicode characters  
-  - Use `str.join()` to join strings instead of `+`
+
 
 ---
 
