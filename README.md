@@ -113,6 +113,8 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 
 - **Key Takeaways:**
   - Exceptions are a mechanism for interrupting normal program flow and continuing in surrounding context.
+  - Use `str()` to convert exceptions to string
+  - Generally, do not catch the *TypeError* exception
   
   
 ---
