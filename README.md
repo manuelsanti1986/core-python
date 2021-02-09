@@ -156,6 +156,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Definitions:
     - **classes:** Define the structure and behavior of objects
   - By convention, class names use CamelCase
+  - `__init__()` is an initializer and not a contructor
 ---
 
 ### Resources:
