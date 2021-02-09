@@ -137,7 +137,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Definitions:
     - **iterable:** Can be passed to `iter()` to produce an *iterator*
     - **iterator:** Can be passed to `next()` to get the next value in the sequence
-    - **generators:** Any function that uses the `yield` statement  
+    - **generators:** Any function that uses the `yield` statement. They describe sequences imperatively. They are considered iterators.
   
 ---
 
