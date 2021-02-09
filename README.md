@@ -138,7 +138,22 @@ The following repository contains the projects prepared by **Manuel Santiago** w
     - **iterable:** Can be passed to `iter()` to produce an *iterator*
     - **iterator:** Can be passed to `next()` to get the next value in the sequence
     - **generators:** Any function that uses the `yield` statement. They describe sequences imperatively. They are considered iterators.
-  
+
+### Module 5: Classes
+
+- **Concepts Overview:**
+  - Define new classes
+  - How classes relate to type
+  - Instance methods
+  - Initializers
+  - Collaborating classes
+  - Separate interface and implementation
+  - Combine programming paradigms
+  - Inheritance
+
+- **Key Takeaways:**
+  - Definitions:
+   - **classes:** Define the structure and behavior of objects
 ---
 
 ### Resources:
