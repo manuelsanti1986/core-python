@@ -129,10 +129,11 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 
 - **Key Takeaways:**
   - Dictionary comprehensions do not work directly on `dict` sources.
-  - Comprehensions should have no side-effects (such as print()), meaning that they should ideally be truly functional.
+  - Comprehensions should have no side-effects (such as `print()`), meaning that they should ideally be truly functional.
   - Definitions:
     - **iterable:** Can be passed to `iter()` to produce an *iterator*
     - **iterator:** Can be passed to `next()` to get the next value in the sequence
+    - **generators:** Any function that uses the `yield` statement
   
   
 ---

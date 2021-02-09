@@ -63,4 +63,26 @@ def generator_functions():
     finally:
         print('This is the final call!! Not really :D')
 
+def distinct(iterable):
+    seen = set()
+    for item in iterable:
+        if item in seen:
+            continue
+        yield item
+        seen.add(item)
+
+def take(count, iterable):
+    counter = 0
+    for item in iterable:
+        if counter == count:
+            return
+        counter += 1
+        yield item
+
+def state_in_generators():
+    print('State in Generators')
+    items = [3, 4, 4, 5, 6, 2, 2, 1]
+    for item in take(3, distinct(items)):
+        print(item)
+
 
