@@ -34,4 +34,8 @@ if __name__ == '__main__':
     collections.string_methods()
 
     ## Iterations & Iterables
+    print(objects.add_divider('Module 04'))
     iterations.list_comprehensions()
+    iterations.set_comprehensions()
+    iterations.dict_comprehensions()
+    iterations.filtering_comprehensions()

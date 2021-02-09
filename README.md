@@ -83,9 +83,9 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Data Types:  
     - **Boolean**
     - **Numeric:**
-      - **int:**
-      - **float:**
-      - **complex:**
+      - **int** 
+      - **float** 
+      - **complex:** `z = complex(x,y)`
     - **Binary:**
       - **byte:** Immutable sequences of single bytes.
       - **bytearray:** Mutable counterpart to bytes objects.
@@ -128,7 +128,9 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Iteration Tools
 
 - **Key Takeaways:**
-  - Test
+  - Dictionary comprehensions do not work directly on `dict` sources.
+  - Comprehensions should have no side-effects (such as print()), meaning that they should ideally be truly functional.
+  - 
   
 ---
 
