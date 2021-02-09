@@ -41,4 +41,8 @@ if __name__ == '__main__':
     iterations.filtering_comprehensions()
     iterations.generator_functions()
     iterations.state_in_generators()
+    iterations.generator_expressions()
+    iterations.iteration_tools()
+
+
 

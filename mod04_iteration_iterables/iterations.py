@@ -1,6 +1,7 @@
 import os
 import glob
 from math import factorial, sqrt
+from itertools import count, islice
 
 def list_comprehensions():
     str = 'Hola mis amigos'
@@ -84,5 +85,17 @@ def state_in_generators():
     items = [3, 4, 4, 5, 6, 2, 2, 1]
     for item in take(4, list(distinct(items))):
         print(item)
+
+def generator_expressions():
+    million_squares = (x*x for x in range(1, 1000001))
+    print(million_squares)
+    list_all_squares = list(million_squares)
+    print(list_all_squares[-10:-5])
+
+def iteration_tools():
+    thousand_primes = islice((x for x in count() if is_prime(x)), 1000)
+    print(thousand_primes)
+    list_thousand_primes = list(thousand_primes)
+    print(list_thousand_primes[-5:])
 
 
