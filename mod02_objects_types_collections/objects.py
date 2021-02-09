@@ -1,5 +1,5 @@
 def add_divider(title):
-    divider = '-' * len(title) + '\n'
+    divider = '\n' + '-' * len(title) + '\n'
     divider += title + '\n'
     divider += '-' * len(title)
     return divider
