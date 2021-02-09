@@ -82,7 +82,7 @@ def take(count, iterable):
 def state_in_generators():
     print('State in Generators')
     items = [3, 4, 4, 5, 6, 2, 2, 1]
-    for item in take(3, distinct(items)):
+    for item in take(4, list(distinct(items))):
         print(item)
 
 
