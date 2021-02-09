@@ -128,16 +128,17 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Iteration Tools
 
 - **Key Takeaways:**
+  - Definitions:
+    - **iterable:** Can be passed to `iter()` to produce an *iterator*
+    - **iterator:** Can be passed to `next()` to get the next value in the sequence
+    - **generators:** Any function that uses the `yield` statement. They describe sequences imperatively. They are considered iterators.
   - Dictionary comprehensions do not work directly on `dict` sources.
   - Comprehensions should have no side-effects (such as `print()`), meaning that they should ideally be truly functional.
   - Generators only do enough work to produce the requested data. This  allows them to model very large sequences such as:
     - Sensor readings
     - Mathematical sequences
     - Contents of large files
-  - Definitions:
-    - **iterable:** Can be passed to `iter()` to produce an *iterator*
-    - **iterator:** Can be passed to `next()` to get the next value in the sequence
-    - **generators:** Any function that uses the `yield` statement. They describe sequences imperatively. They are considered iterators.
+
 
 ### Module 5: Classes
 
@@ -153,7 +154,8 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 
 - **Key Takeaways:**
   - Definitions:
-   - **classes:** Define the structure and behavior of objects
+    - **classes:** Define the structure and behavior of objects
+  - By convention, class names use CamelCase
 ---
 
 ### Resources:

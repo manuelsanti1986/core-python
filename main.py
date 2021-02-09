@@ -16,13 +16,13 @@ print(__name__)
 
 if __name__ == '__main__':
     ## Modularity
-    print(objects.add_divider('Module 01'))
+    print(objects.add_divider('Module 01 - Modularity'))
     url = sys.argv[1]
     print(url)
     words.main_words(url)
 
     ## Objects and Types
-    print(objects.add_divider('Module 02'))
+    print(objects.add_divider('Module 02 - Objects, Types, and Collections'))
     main_objects()
     print(dir(collections))
     print(collections.__name__)
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     collections.string_methods()
 
     ## Iterations & Iterables
-    print(objects.add_divider('Module 04'))
+    print(objects.add_divider('Module 04 - Iterations & Iterables'))
     iterations.list_comprehensions()
     iterations.set_comprehensions()
     iterations.dict_comprehensions()
@@ -43,6 +43,9 @@ if __name__ == '__main__':
     iterations.state_in_generators()
     iterations.generator_expressions()
     iterations.iteration_tools()
+
+    ## Classes
+    print(objects.add_divider('Module 05 - Classes'))
 
 
 
