@@ -83,14 +83,14 @@ The following repository contains the projects prepared by **Manuel Santiago** w
   - Data Types:  
     - **Boolean**
     - **Numeric:**
-      - **int:**
-      - **float:**
-      - **complex:**
+      - **int** 
+      - **float** 
+      - **complex:** `z = complex(x,y)`
     - **Binary:**
       - **byte:** Immutable sequences of single bytes.
       - **bytearray:** Mutable counterpart to bytes objects.
       - **memoryview:** Allow Python code to access the internal data of an object that supports the buffer protocol without copying.
-    - Collections:
+    - **Collections:**
       - **List:** Ordered collection which is changeable. Items do not need to be the same data
       - **Tuples:** Immutable sequence of arbitrary objects.
       - **Range:** Arithmetic progression of integers
@@ -99,7 +99,46 @@ The following repository contains the projects prepared by **Manuel Santiago** w
        type.
       - **String:** Sequence of unicode characters  
 
+### Module 3: Exceptions
 
+- **Concepts Overview:**
+  - Exception concept
+  - Raising Exceptions
+  - Control flow
+  - Catching Exceptions
+  - Unhandled Exceptions
+  - Built-in exceptions
+  - Programmer vs user erros
+  - Resource cleanup
+
+- **Key Takeaways:**
+  - Exceptions are a mechanism for interrupting normal program flow and continuing in surrounding context.
+  - Use `str()` to convert exceptions to string
+  - Generally, do not catch the *TypeError* exception
+  - Implement platform-specific actions with *ImportError* and EAFP
+
+### Module 4: Iteration and Iterables
+
+- **Concepts Overview:**
+  - Low-leve iterable API
+  - Exceptions in iterations
+  - The *yield* keyword
+  - Statefulness, laziness, and infinite sequences
+  - Generator Expressions
+  - Iteration Tools
+
+- **Key Takeaways:**
+  - Dictionary comprehensions do not work directly on `dict` sources.
+  - Comprehensions should have no side-effects (such as `print()`), meaning that they should ideally be truly functional.
+  - Generators only do enough work to produce the requested data. This  allows them to model very large sequences such as:
+    - Sensor readings
+    - Mathematical sequences
+    - Contents of large files
+  - Definitions:
+    - **iterable:** Can be passed to `iter()` to produce an *iterator*
+    - **iterator:** Can be passed to `next()` to get the next value in the sequence
+    - **generators:** Any function that uses the `yield` statement. They describe sequences imperatively. They are considered iterators.
+  
 ---
 
 ### Resources:
@@ -110,6 +149,8 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 ### Useful Links
 - [Python Standard Library](https://docs.python.org/3/library/)
 - [Python Standard Types](https://docs.python.org/3/library/stdtypes.html)
+- [Python Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)  
+- [itertools](https://docs.python.org/3/library/itertools.html)  
 - [Absolute vs Relative Module Imports](https://realpython.com/absolute-vs-relative-python-imports/)
 
 ---
