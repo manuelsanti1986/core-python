@@ -42,3 +42,25 @@ def filtering_comprehensions():
     prime_numbers = [x for x in range(101) if is_prime(x)]
     print(prime_numbers)
 
+def generator123():
+    print('About to yield 1')
+    yield 1
+    print('About to yield 2')
+    yield 2
+    print('About to yield 3')
+    yield 3
+    print('About to return')
+
+def generator_functions():
+    gen = generator123()
+    try:
+        next(gen)
+        next(gen)
+        next(gen)
+        next(gen)
+    except StopIteration:
+        print('StopIteration Exception called!!!')
+    finally:
+        print('This is the final call!! Not really :D')
+
+

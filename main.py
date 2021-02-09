@@ -39,3 +39,5 @@ if __name__ == '__main__':
     iterations.set_comprehensions()
     iterations.dict_comprehensions()
     iterations.filtering_comprehensions()
+    iterations.generator_functions()
+

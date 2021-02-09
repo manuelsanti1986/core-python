@@ -145,6 +145,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 ### Useful Links
 - [Python Standard Library](https://docs.python.org/3/library/)
 - [Python Standard Types](https://docs.python.org/3/library/stdtypes.html)
+- [Python Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)  
 - [Absolute vs Relative Module Imports](https://realpython.com/absolute-vs-relative-python-imports/)
 
 ---
