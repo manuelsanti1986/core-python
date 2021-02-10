@@ -58,6 +58,9 @@ if __name__ == '__main__':
     flight01.allocate_seat_specific('5A', 'Cebollita')
     flight01.allocate_seat_specific('5C', 'Pepinillo')
     pp(flight01.get_seating())
+    flight01.relocate_passenger('5B', '7F')
+    flight01.relocate_passenger('5C', '8F')
+    pp(flight01.get_seating())
 
 
 
