@@ -57,10 +57,12 @@ if __name__ == '__main__':
     flight01.allocate_seat_specific('5B', 'Tomatito')
     flight01.allocate_seat_specific('5A', 'Cebollita')
     flight01.allocate_seat_specific('5C', 'Pepinillo')
+    flight01.allocate_seat_specific('10C', 'Pimiento')
     pp(flight01.get_seating())
     flight01.relocate_passenger('5B', '7F')
     flight01.relocate_passenger('5C', '8F')
     pp(flight01.get_seating())
+    print(flight01.get_number_available_seats())
 
 
 

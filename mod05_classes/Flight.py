@@ -58,6 +58,13 @@ class Flight:
         self._seating[to_row][to_letter] = self._seating[from_row][from_letter]
         self._seating[from_row][from_letter] = None
 
+    def get_number_available_seats(self):
+        return sum(
+            sum(1 for s in row.values() if s is None)
+                   for row in self._seating
+                   if row is not None
+                   )
+
     def _parse_seat(self, seat):
         rows, seat_letters = self._aircraft.get_seating_plan()
         letter = seat[-1]
