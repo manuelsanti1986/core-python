@@ -155,6 +155,7 @@ The following repository contains the projects prepared by **Manuel Santiago** w
 - **Key Takeaways:**
   - Definitions:
     - **classes:** Define the structure and behavior of objects
+    - **Polymorphism:** Using objects of different types through a uniform interface. It applies to both functions as well as more complex types.
   - By convention, class names use CamelCase
   - `__init__()` is an initializer and not a contructor. Its purpose is to initialize an object that has already been created. It should *NOT* return anything.
   - In Python, the constructor is provided by the runtime system. It checks for the existence of an initializer.     

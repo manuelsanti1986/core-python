@@ -1,10 +1,14 @@
 #! /usr/bin/env python3
 import sys
+from pprint import pprint as pp
 
 import mod01_modularity.words as words
 import mod02_objects_types_collections.objects as objects
 import mod02_objects_types_collections.collections as collections
 import mod04_iteration_iterables.iterations as iterations
+
+from mod05_classes.Aircraft import Aircraft
+from mod05_classes.Flight import Flight
 
 from mod02_objects_types_collections.objects import main_objects
 
@@ -46,6 +50,10 @@ if __name__ == '__main__':
 
     ## Classes
     print(objects.add_divider('Module 05 - Classes'))
+    aircraft01 = Aircraft("G-EUPT", "Airbus A319", 10, 6)
+    flight01 = Flight("BA758", aircraft01)
+    pp(flight01.get_seating())
+
 
 
 
