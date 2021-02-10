@@ -23,3 +23,33 @@ class Flight:
 
     def get_seating(self):
         return self._seating
+
+    def allocate_seat_specific(self, seat, passenger):
+        """Allocate a seat to a passanger.
+        Args:
+            seat: A seat designator, such as '12C or '5F'
+            passenger: A passenger name
+
+        Raises:
+            ValueError: If the seat is unavailable
+        """
+        rows, seat_letters = self._aircraft.get_seating_plan()
+        letter = seat[-1]
+
+        if letter not in seat_letters:
+            raise ValueError(f'Invalid seat letter {letter}')
+
+        row_text = seat[:-1]
+
+        try:
+            row = int(row_text)
+        except ValueError:
+            raise ValueError(f'Invalid seat row {row_text}')
+
+        if row not in rows:
+            raise ValueError(f'Invalid row number {row_text}')
+
+        if self._seating[row][letter] is not None:
+            raise ValueError(f'Seat {seat} already occupied')
+
+        self._seating[row][letter] = passenger

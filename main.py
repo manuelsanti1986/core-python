@@ -50,8 +50,12 @@ if __name__ == '__main__':
 
     ## Classes
     print(objects.add_divider('Module 05 - Classes'))
-    aircraft01 = Aircraft("G-EUPT", "Airbus A319", 10, 6)
-    flight01 = Flight("BA758", aircraft01)
+    aircraft01 = Aircraft('G-EUPT', 'Airbus A319', 10, 6)
+    flight01 = Flight('BA758', aircraft01)
+    pp(flight01.get_seating())
+
+    flight01.allocate_seat_specific('5B', 'Tomatito')
+    flight01.allocate_seat_specific('5A', 'Cebollita')
     pp(flight01.get_seating())
 
 
