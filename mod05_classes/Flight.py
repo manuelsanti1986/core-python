@@ -33,6 +33,14 @@ class Flight:
         Raises:
             ValueError: If the seat is unavailable
         """
+        row, letter = self._parse_seat(seat)
+
+        if self._seating[row][letter] is not None:
+            raise ValueError(f'Seat {seat} already occupied')
+
+        self._seating[row][letter] = passenger
+
+    def _parse_seat(self, seat):
         rows, seat_letters = self._aircraft.get_seating_plan()
         letter = seat[-1]
 
@@ -47,9 +55,6 @@ class Flight:
             raise ValueError(f'Invalid seat row {row_text}')
 
         if row not in rows:
-            raise ValueError(f'Invalid row number {row_text}')
+            raise ValueError(f'Invalid row number {row}')
 
-        if self._seating[row][letter] is not None:
-            raise ValueError(f'Seat {seat} already occupied')
-
-        self._seating[row][letter] = passenger
+        return row, letter
